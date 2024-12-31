@@ -1,0 +1,6 @@
+[package]
+name = "_07_Ownership"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
