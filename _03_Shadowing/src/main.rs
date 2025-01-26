@@ -1,5 +1,6 @@
 fn main() {
     let x: u32 = 10;
+    println!("{x}");
     let x: f32 = 11.11;    //x is being overwritten
 
     println!("{x}");

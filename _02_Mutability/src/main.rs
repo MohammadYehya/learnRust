@@ -6,12 +6,14 @@ fn main() {
     println!("{x}");
     
     let mut x = 11;
+    println!("{x}");
     x = 12;     //This works
 
     println!("{x}");
 
     const PI: f32 = 3.1412;
     //const mut PI: f32 = 3.1412;     //This doesnt work
+    println!("{PI}");
 
 
 }
