@@ -20,6 +20,7 @@ fn main() {
             _y: T,
         }
 
+        // Note that we have to declare T just after impl so we can use T to specify that we’re implementing methods on the type Point<T> by declaring T as a generic type after impl.
         impl<T> Point<T> {
             fn _x(&self) -> &T {
                 &self._x
